@@ -2,7 +2,7 @@ import React from "react";
 
 const Profile = () => {
   return (
-    <section className="mb-96" id="home">
+    <section className="mb-96 pt-20" id="home">
       Home
     </section>
   );

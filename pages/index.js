@@ -25,6 +25,7 @@ export default function Home() {
         <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png"/>
       </Head>
 
+      <Navbar />
       <main className="bg-slate-100 px-10">
         
         {/* <section className="min-h-screen">
@@ -82,7 +83,8 @@ export default function Home() {
           </ul>
         </section> */}
 
-        <Navbar />
+        {/* <AboutMe /> */}
+
         <Profile />
         <About />
         <Skills />

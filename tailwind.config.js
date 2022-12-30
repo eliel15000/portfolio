@@ -10,6 +10,9 @@ module.exports = {
         burtons: "burtons"
       }
     },
+    screens: {
+      "md": "800px"
+    }
   },
   plugins: [],
 }
