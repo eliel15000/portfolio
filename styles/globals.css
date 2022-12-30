@@ -18,6 +18,12 @@ a {
   box-sizing: border-box;
 }
 
+.pic-bg {
+  padding-top: 0.5rem;
+  width: 21rem;
+  height: 21rem;
+}
+
 @font-face {
   font-family: "burtons";
   src: url("../public/Burtons.otf");
