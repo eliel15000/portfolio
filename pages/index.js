@@ -83,9 +83,12 @@ export default function Home() {
           </ul>
         </section> */}
 
-        {/* <AboutMe /> */}
+        
 
         <Profile />
+
+        {/* <AboutMe /> */}
+
         <About />
         <Skills />
         <Projects />

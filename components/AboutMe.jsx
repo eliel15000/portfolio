@@ -7,7 +7,7 @@ const AboutMe = () => {
   return (
     <div>
       <div className="text-center p-10">
-        <h2 className="text-5xl py-5 text-teal-600 font-medium bg-white">Eliezer Encarnacion</h2>
+        <h2 className="text-5xl py-5 text-teal-600 font-medium">Eliezer Encarnacion</h2>
         <div className="pic-bg mx-auto bg-gradient-to-b from-teal-300 to-teal-500 rounded-full relative my-7">
           <div className="relative mx-auto rounded-full w-80 h-80 overflow-hidden">
             <Image src={eli} fill />

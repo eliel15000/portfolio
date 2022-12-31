@@ -17,7 +17,7 @@ const Navbar = () => {
   let [open, setOpen] = useState(false);
 
   return (
-    // <nav className="py-10 mb-12 flex justify-between">
+    // <nav className="py-10 flex justify-between">
     //   <h1 className=" text-xl font-burtons">EliezerCoding</h1>
     //   <ul className="flex items-center">
     //     <li><BsFillMoonStarsFill className=" cursor-pointer text-2xl" /></li>
@@ -25,7 +25,7 @@ const Navbar = () => {
     //   </ul>
     // </nav>
 
-    <div className="shadow-md w-full fixed top-0 left-0">
+    <div className="shadow-md w-full z-[99] fixed top-0 left-0">
       <div className="md:flex justify-between bg-white py-4 md:px-10 px-7">
         <div className="flex text-2xl items-center font-burtons ">
           <Image src={EcLogo} alt="EliezerCoding logo" priority className="w-10 h-10 hover:cursor-pointer"></Image>
@@ -40,7 +40,7 @@ const Navbar = () => {
           {
             Links.map((link) => (
               <li key={link.name} className="md:ml-8 text-xl md:my-0 my-7">
-                <a href={link.link} className="text-gray-800 hover:text-teal-500 font-burtons">{link.name}</a>
+                <a href={link.link} className="text-gray-800 hover:text-teal-500 font-burtons" onClick={() => (setOpen(false))}>{link.name}</a>
               </li>
             ))
           }
