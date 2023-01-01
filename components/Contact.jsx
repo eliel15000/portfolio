@@ -3,7 +3,9 @@ import React from "react";
 const Contact = () => {
   return (
     <section className="mb-96 pt-20" id="contact">
-      Contact
+      <div>
+        <h1 className="sectionHeading flex md:text-3xl text-2xl font-ubuntu">Contact</h1>
+      </div>
     </section>
   );
 }

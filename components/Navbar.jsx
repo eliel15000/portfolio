@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { BsFillMoonStarsFill } from "react-icons/bs";
+import Link from "next/link";
 import { IoMenu, IoClose } from "react-icons/io5";
 import Image from "next/image";
 import EcLogo from "../public/images/icon-ec-67.png";

@@ -7,11 +7,13 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        burtons: "burtons"
+        burtons: "burtons",
+        ubuntu: "ubuntu",
       }
     },
     screens: {
-      "md": "800px"
+      "sm": "450px",
+      "md": "1050px"
     }
   },
   plugins: [],

@@ -84,7 +84,6 @@ export default function Home() {
         </section> */}
 
         
-
         <Profile />
 
         {/* <AboutMe /> */}

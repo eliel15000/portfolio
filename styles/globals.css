@@ -1,12 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Ubuntu:wght@700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  html {
+    @apply scroll-smooth;
+  }
+}
 
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
 a {
@@ -18,13 +26,57 @@ a {
   box-sizing: border-box;
 }
 
+/* Profile Image */
 .pic-bg {
   padding-top: 0.5rem;
-  width: 21rem;
-  height: 21rem;
+  width: 17rem;
+  height: 17rem;
+}
+
+/* Sections */
+.sectionHeading::before, .sectionHeading::after {
+  content: "";
+  display: block;
+  width: 27%;
+  height: 3px;
+  background: black;
+  margin-top: auto;
+  margin-bottom: auto;
+  border-radius: 25px;
+}
+
+.sectionHeading::before {
+  margin-left: 0;
+  margin-right: auto;
+}
+
+.sectionHeading::after {
+  margin-right: 0;
+  margin-left: auto;
+}
+
+.sectionContent {
+  background: white;
+  border-radius: 40px;
+  margin-top: 30px;
+  padding: 30px;
 }
 
 @font-face {
   font-family: "burtons";
   src: url("../public/Burtons.otf");
+}
+
+@media (min-width: 800px) {
+  .sectionHeading::before, .sectionHeading::after {
+    width: 35%;
+  }
+}
+
+@media (min-width: 450px) {
+  .pic-bg {
+    padding-top: 0.5rem;
+    width: 21rem;
+    height: 21rem;
+  }
 }
