@@ -7,7 +7,7 @@ import EcLogo from "../public/images/icon-ec-67.png";
 
 const Navbar = () => {
 
-  let Links = [
+  let links = [
     {name: "HOME", link:"#home"},
     {name: "ABOUT", link:"#about"},
     {name: "SKILLS", link:"#skills"},
@@ -39,7 +39,7 @@ const Navbar = () => {
 
         <ul className={`md:flex md:items-center md:pt-2 md:pb-0 pb-12 absolute md:static bg-white md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in ${open ? "top-16 opacity-100" : "top-[-490px] opacity-0"} md:opacity-100`}>
           {
-            Links.map((link) => (
+            links.map((link) => (
               <li key={link.name} className="md:ml-8 text-xl md:my-0 my-7">
                 <a href={link.link} className="text-gray-800 hover:text-teal-500 font-burtons" onClick={() => (setOpen(false))}>{link.name}</a>
               </li>
