@@ -5,7 +5,7 @@ import eli from "../public/profile-image.jpg";
 
 const Profile = () => {
 
-  let links = [
+  const links = [
     {
       name: "Linkedin",
       link: "https://www.linkedin.com/in/eliezer-encarnacion/",

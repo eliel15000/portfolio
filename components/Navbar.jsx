@@ -7,7 +7,7 @@ import EcLogo from "../public/images/icon-ec-67.png";
 
 const Navbar = () => {
 
-  let links = [
+  const links = [
     {name: "HOME", link:"#home"},
     {name: "ABOUT", link:"#about"},
     {name: "SKILLS", link:"#skills"},
@@ -15,7 +15,7 @@ const Navbar = () => {
     {name: "CONTACT", link:"#contact"},
   ]
 
-  let [open, setOpen] = useState(false);
+  const [open, setOpen] = useState(false);
 
   return (
     // <nav className="py-10 flex justify-between">

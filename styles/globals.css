@@ -34,7 +34,7 @@ a {
 }
 
 /* Sections */
-.sectionHeading::before, .sectionHeading::after {
+.section-heading::before, .section-heading::after {
   content: "";
   display: block;
   width: 27%;
@@ -45,31 +45,33 @@ a {
   border-radius: 25px;
 }
 
-.sectionHeading::before {
+.section-heading::before {
   margin-left: 0;
   margin-right: auto;
 }
 
-.sectionHeading::after {
+.section-heading::after {
   margin-right: 0;
   margin-left: auto;
 }
 
-.sectionContent {
+.section-content {
   background: rgba(255, 255, 255, 0.944);
   border-radius: 40px;
   margin-top: 30px;
   padding: 30px;
 }
 
-/* Skill Section */
-.skillsGrid {
+/* Skills Section */
+.skills-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
   column-gap: 50px;
   row-gap: 50px;
   justify-items: center;
 }
+
+/* Projects Section */
 
 @font-face {
   font-family: "burtons";
@@ -78,13 +80,13 @@ a {
 
 /* Media */
 @media (min-width: 1050px) {
-  .sectionHeading::before, .sectionHeading::after {
+  .section-heading::before, .section-heading::after {
     width: 35%;
   }
 }
 
 @media (min-width: 1015px) {
-  .skillsGrid {
+  .skills-grid {
     grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));;
   }
 }
