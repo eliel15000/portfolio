@@ -28,14 +28,14 @@ const Projects = () => {
       live: "https://eliel15000.github.io/recipe-app/",
       repo: "https://github.com/eliel15000/recipe-app/"
     },
-    // {
-    //   name: "",
-    //   image: "",
-    //   tech: "",
-    //   desc: [],
-    //   live: "",
-    //   repo: ""
-    // },
+    {
+      name: "Portfolio",
+      image: "/images/projects/portfolio.png",
+      tech: "Next.js, React, Tailwind CSS, Node.js",
+      desc: [],
+      live: "#home",
+      repo: "https://github.com/eliel15000/portfolio/"
+    },
     {
       name: "EdgeTrack",
       image: "/images/projects/edgetrack.jpeg",
@@ -55,7 +55,7 @@ const Projects = () => {
     {
       name: "Tinger App",
       image: "/images/projects/tinger.png",
-      tech: "HTML, CSS, Bootstrap, GitHub",
+      tech: "HTML, CSS, Bootstrap",
       desc: ["A simulation of a website where you can meet new tigers nearby, instead of people, as on Tinder.", "Organized code, HTML divided into sections, style-sheet modular and readable."],
       live: "https://eliel15000.github.io/tinger/",
       repo: "https://github.com/eliel15000/tinger/"

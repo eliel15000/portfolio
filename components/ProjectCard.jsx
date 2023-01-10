@@ -24,7 +24,7 @@ const ProjectCard = ({ name, image, tech, desc, live, repo }) => {
 
           <div className="text-teal-600 text-lg underline mt-10">
             {live && (
-              <a href={live} target="_blank" className="mr-10">Live</a>
+              <a href={live} target={(live[0] === "#") ? "" : "_blank"}className="mr-10">Live</a>
             )}
             {repo && (
               <a href={repo} target="_blank">Repo</a>
@@ -34,35 +34,6 @@ const ProjectCard = ({ name, image, tech, desc, live, repo }) => {
 
       </div>
     </article>
-
-
-
-    // <article className="smd:flex">
-
-    //   <div className="project-image flex-[0_0_400px]">
-    //     <Image src={image} alt={`${name} project`} width={500} height={278} className="" priority />
-    //   </div>
-
-    //   <div className="smd:ml-5">
-    //     <h3 className="font-ubuntu text-xl">{name}</h3>
-    //     <h4 className="text-lg">Technologies Used: <span>{tech}</span></h4>
-    //     <ul className="list-disc list-inside">
-    //       {
-    //         desc.map((point, i) => (
-    //           <li key={`${i}_${point.length}`} className="">{point}</li>
-    //         ))
-    //       }
-    //     </ul>
-    //     <div>
-    //       {live && (
-    //         <a href={live} target="_blank">Live</a>
-    //       )}
-    //       {repo && (
-    //         <a href={repo} target="_blank">Repo</a>
-    //       )}
-    //     </div>
-    //   </div>
-    // </article>
   );
 }
 
