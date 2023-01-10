@@ -3,7 +3,7 @@ import { BsEnvelopeFill } from "react-icons/bs";
 
 const Contact = () => {
   return (
-    <section className="py-20 md:px-20" id="contact">
+    <section className="pt-20 pb-10 md:px-20" id="contact">
       <div>
         <h1 className="section-heading flex md:text-3xl text-2xl font-ubuntu">Contact</h1>
       </div>
