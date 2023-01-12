@@ -32,7 +32,7 @@ const Projects = () => {
       name: "Portfolio",
       image: "/images/projects/portfolio.png",
       tech: "Next.js, React, Tailwind CSS, Node.js",
-      desc: [],
+      desc: ["Developed an interesting portfolio website, where skills and projects are shown.", "Built with hooks and functional components.", "Smooth scrolling effect between sections via navigation bar."],
       live: "#home",
       repo: "https://github.com/eliel15000/portfolio/"
     },

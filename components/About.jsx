@@ -9,7 +9,7 @@ const About = () => {
       </div>
 
       <div className="section-content">
-        <p className="text-base sm:text-lg md:text-xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p className="text-base sm:text-lg md:text-xl smd:p-10">Hello World! I’m Eliezer Encarnacion, a Front-End Web Developer, recently graduated from the <a href="https://www.umass.edu/" target="_blank" className="text-teal-500 hover:underline" title="UMass Amherst">University of Massachusetts Amherst</a> with a B.S. in computer science. I am passionate about coding and solving problems through code, and I am excited to work alongside other amazing programmers and learn so much more!</p>
       </div>
       
     </section>
