@@ -38,11 +38,11 @@ const Profile = () => {
             </p>
           </div>
           <div className="flex justify-center py-5">
-            <a className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md text-lg" href="https://drive.google.com/file/d/1YMyaJk1YYFrUC2uj5vfK0tJP4bNWTOOi/view?usp=sharing" alt="Eliezer Encarnacion's resume" target="_blank">Resume</a>
+            <a className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md text-lg" href="https://drive.google.com/file/d/1YMyaJk1YYFrUC2uj5vfK0tJP4bNWTOOi/view?usp=sharing" alt="Eliezer Encarnacion's resume" target="_blank" rel="noreferrer">Resume</a>
             <ul className="text-5xl flex text-gray-600 text-center md:mx-auto ml-12">
                 {links.map((link) => (
                   <li key={link.name} className="mx-3">
-                    <a href={link.link} target="_blank">{link.icon}</a>
+                    <a href={link.link} target="_blank" rel="noreferrer">{link.icon}</a>
                   </li>
                 ))}
             </ul>

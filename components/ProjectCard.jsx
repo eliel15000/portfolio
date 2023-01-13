@@ -24,10 +24,10 @@ const ProjectCard = ({ name, image, tech, desc, live, repo }) => {
 
           <div className="text-teal-600 text-lg underline mt-10">
             {live && (
-              <a href={live} target={(live[0] === "#") ? "" : "_blank"}className="mr-10">Live</a>
+              <a href={live} target={(live[0] === "#") ? "" : "_blank"} rel="noreferrer" className="mr-10">Live</a>
             )}
             {repo && (
-              <a href={repo} target="_blank">Repo</a>
+              <a href={repo} target="_blank" rel="noreferrer">Repo</a>
             )}
           </div>
         </div>
