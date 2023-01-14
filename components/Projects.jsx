@@ -1,12 +1,13 @@
 import React from "react";
 import ProjectCard from "./ProjectCard";
+import ecommerceImage from "../public/images/projects/ecommerce.png";
 
 const Projects = () => {
 
   const projectList = [
     {
       name: "Headphones Online Store",
-      image: "/images/projects/ecommerce.png",
+      image: ecommerceImage,
       tech: "Next.js, React, Sanity, Stripe, REST API, Node.js",
       desc: [
         "Implemented the functioning of an E-commerce Website that performs various functions like adding products to cart, billing, and much more.",
