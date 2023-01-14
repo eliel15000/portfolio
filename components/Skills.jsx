@@ -6,7 +6,7 @@ import cssIcon from "/images/skills/css.png";
 import javascriptIcon from "/images/skills/javascript.png";
 import reactIcon from "/images/skills/react.png";
 import javaIcon from "/images/skills/java.png";
-import springBootIcon from "/images/skills/springboot.png";
+import springbootIcon from "/images/skills/springboot.png";
 import apiIcon from "/images/skills/api.png";
 import mysqpIcon from "/images/skills/mysql.png";
 import mongodbIcon from "/images/skills/mongodb.png";
@@ -16,21 +16,19 @@ import intellijIcon from "/images/skills/intellij.png";
 
 const Skills = () => {
 
-  const skillSrc = "/images/skills/"
-
   const skillsList = [
     { name: "HTML", src: htmlIcon},
-    { name: "CSS", src: skillSrc + "css.png"},
-    { name: "JavaScript", src: skillSrc + "javascript.png"},
-    { name: "React", src: skillSrc + "react.png"},
-    { name: "Java", src: skillSrc + "java.png"},
-    { name: "Spring Boot", src: skillSrc + "springboot.png"},
-    { name: "REST API", src: skillSrc + "api.png"},
-    { name: "MySQL", src: skillSrc + "mysql.png"},
-    { name: "MongoDB", src: skillSrc + "mongodb.png"},
-    { name: "Git", src: skillSrc + "git.png"},
-    { name: "VS Code", src: skillSrc + "vscode.png"},
-    { name: "IntelliJ IDEA", src: skillSrc + "intellij.png"},
+    { name: "CSS", src: cssIcon},
+    { name: "JavaScript", src: javascriptIcon},
+    { name: "React", src: reactIcon},
+    { name: "Java", src: javaIcon},
+    { name: "Spring Boot", springbootIcon},
+    { name: "REST API", src: apiIcon},
+    { name: "MySQL", src: mysqpIcon},
+    { name: "MongoDB", src: mongodbIcon},
+    { name: "Git", src: gitIcon},
+    { name: "VS Code", src: vscodeIcon},
+    { name: "IntelliJ IDEA", src: intellijIcon},
   ]
 
   return (
