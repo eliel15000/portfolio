@@ -2,6 +2,17 @@ import React from "react";
 import Image from "next/image";
 // import Icon from "/images/skills/";
 import htmlIcon from "../public/images/skills/html.png";
+import cssIcon from "/images/skills/css.png";
+import javascriptIcon from "/images/skills/javascript.png";
+import reactIcon from "/images/skills/react.png";
+import javaIcon from "/images/skills/java.png";
+import springBootIcon from "/images/skills/springboot.png";
+import apiIcon from "/images/skills/api.png";
+import mysqpIcon from "/images/skills/mysql.png";
+import mongodbIcon from "/images/skills/mongodb.png";
+import gitIcon from "/images/skills/git.png";
+import vscodeIcon from "/images/skills/vscode.png";
+import intellijIcon from "/images/skills/intellij.png";
 
 const Skills = () => {
 
