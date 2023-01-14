@@ -1,12 +1,14 @@
 import React from "react";
 import Image from "next/image";
+// import Icon from "/images/skills/";
+import htmlIcon from "../public/images/skills/html.png";
 
 const Skills = () => {
 
   const skillSrc = "/images/skills/"
 
   const skillsList = [
-    { name: "HTML", src: skillSrc + "html.png"},
+    { name: "HTML", src: htmlIcon},
     { name: "CSS", src: skillSrc + "css.png"},
     { name: "JavaScript", src: skillSrc + "javascript.png"},
     { name: "React", src: skillSrc + "react.png"},
