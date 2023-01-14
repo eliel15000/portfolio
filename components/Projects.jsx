@@ -1,6 +1,11 @@
 import React from "react";
 import ProjectCard from "./ProjectCard";
 import ecommerceImage from "../public/images/projects/ecommerce.png";
+import recipeImage from "../public/images/projects/recipe.png";
+import portfolioImage from "../public/images/projects/portfolio.png";
+import edgetrackImage from "../public/images/projects/edgetrack.jpeg";
+import employeeImage from "../public/images/projects/employee.png";
+import tingerImage from "../public/images/projects/tinger.png";
 
 const Projects = () => {
 
@@ -20,7 +25,7 @@ const Projects = () => {
     },
     {
       name: "Recipe App",
-      image: "/images/projects/recipe.png",
+      image: recipeImage,
       tech: "React, Bootstrap, REST API, Node.js",
       desc: [
         "Developed a Website App to search for food recipes using React.",
@@ -31,7 +36,7 @@ const Projects = () => {
     },
     {
       name: "Portfolio",
-      image: "/images/projects/portfolio.png",
+      image: portfolioImage,
       tech: "Next.js, React, Tailwind CSS, Node.js",
       desc: ["Developed an interesting portfolio website, where skills and projects are shown.", "Built with hooks and functional components.", "Smooth scrolling effect between sections via navigation bar."],
       live: "#home",
@@ -39,7 +44,7 @@ const Projects = () => {
     },
     {
       name: "EdgeTrack",
-      image: "/images/projects/edgetrack.jpeg",
+      image: edgetrackImage,
       tech: "JavaScript, Bootstrap, PostgreSQL, Express.js, Node.js, Heroku",
       desc: ["Collaborated with peers to develop an online trading journal.", "Co-implemented front-end pages with JavaScript and Bootstrap CSS.", "Co-implemented Express API that fetches data with SQL queries."],
       live: "",
@@ -47,7 +52,7 @@ const Projects = () => {
     },
     {
       name: "Employee Management App",
-      image: "/images/projects/employee.png",
+      image: employeeImage,
       tech: "Java, Spring Boot, Maven, React, Bootstrap, Axios, MySQL, Node.js",
       desc: ["Developed a full stack application that manages a list of employees and their details.", "Used React Hooks to update employees table based on user actions.", "Implemented page navigation with React Routers.", "Used Axios to make REST API calls from the client (React) to the server (Spring Boot).", "Used Spring Boot and some dependencies (like Spring MVC, Spring Data JPA, MySQL Driver, and more) to interact with the client and the database (MySQL)."],
       live: "",
@@ -55,7 +60,7 @@ const Projects = () => {
     },
     {
       name: "Tinger App",
-      image: "/images/projects/tinger.png",
+      image: tingerImage,
       tech: "HTML, CSS, Bootstrap",
       desc: ["A simulation of a website where you can meet new tigers nearby, instead of people, as on Tinder.", "Organized code, HTML divided into sections, style-sheet modular and readable."],
       live: "https://eliel15000.github.io/tinger/",
