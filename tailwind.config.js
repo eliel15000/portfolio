@@ -9,6 +9,7 @@ module.exports = {
       fontFamily: {
         burtons: "burtons",
         ubuntu: "ubuntu",
+        inconsolata: "inconsolata"
       }
     },
     screens: {

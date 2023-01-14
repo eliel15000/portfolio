@@ -19,10 +19,10 @@ const Navbar = () => {
 
     <div className="shadow-md w-full z-[99] fixed top-0 left-0">
       <div className="md:flex justify-between bg-white py-4 md:px-10 px-7">
-        <div className="flex text-2xl items-center font-burtons ">
+        <div className="flex text-4xl items-center font-inconsolata ">
           <a href="#home" className="flex">
             <Image src={EcLogo} alt="EliezerCoding logo" className="w-10 h-10 hover:cursor-pointer" />
-            <h1 className="pt-2 pl-2 hover:cursor-pointer">EliezerCoding</h1>
+            <h1 className="pt-0 pl-2 hover:cursor-pointer">EliezerCoding</h1>
           </a>
         </div>
 
@@ -34,7 +34,7 @@ const Navbar = () => {
           {
             links.map((link) => (
               <li key={link.name} className="md:ml-8 text-xl md:my-0 my-7">
-                <a href={link.link} className="text-gray-800 hover:text-teal-500 font-burtons" onClick={() => (setOpen(false))}>{link.name}</a>
+                <a href={link.link} className="text-gray-800 hover:text-teal-500 font-inconsolata text-3xl" onClick={() => (setOpen(false))}>{link.name}</a>
               </li>
             ))
           }
