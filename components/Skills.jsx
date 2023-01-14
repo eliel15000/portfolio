@@ -2,17 +2,17 @@ import React from "react";
 import Image from "next/image";
 // import Icon from "/images/skills/";
 import htmlIcon from "../public/images/skills/html.png";
-import cssIcon from "/images/skills/css.png";
-import javascriptIcon from "/images/skills/javascript.png";
-import reactIcon from "/images/skills/react.png";
-import javaIcon from "/images/skills/java.png";
-import springbootIcon from "/images/skills/springboot.png";
-import apiIcon from "/images/skills/api.png";
-import mysqpIcon from "/images/skills/mysql.png";
-import mongodbIcon from "/images/skills/mongodb.png";
-import gitIcon from "/images/skills/git.png";
-import vscodeIcon from "/images/skills/vscode.png";
-import intellijIcon from "/images/skills/intellij.png";
+import cssIcon from "../public/images/skills/css.png";
+import javascriptIcon from "../public/images/skills/javascript.png";
+import reactIcon from "../public/images/skills/react.png";
+import javaIcon from "../public/images/skills/java.png";
+import springbootIcon from "../public/images/skills/springboot.png";
+import apiIcon from "../public/images/skills/api.png";
+import mysqpIcon from "../public/images/skills/mysql.png";
+import mongodbIcon from "../public/images/skills/mongodb.png";
+import gitIcon from "../public/images/skills/git.png";
+import vscodeIcon from "../public/images/skills/vscode.png";
+import intellijIcon from "../public/images/skills/intellij.png";
 
 const Skills = () => {
 
