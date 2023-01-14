@@ -22,7 +22,7 @@ const Skills = () => {
     { name: "JavaScript", src: javascriptIcon},
     { name: "React", src: reactIcon},
     { name: "Java", src: javaIcon},
-    { name: "Spring Boot", springbootIcon},
+    { name: "Spring Boot", src: springbootIcon},
     { name: "REST API", src: apiIcon},
     { name: "MySQL", src: mysqpIcon},
     { name: "MongoDB", src: mongodbIcon},
@@ -45,7 +45,7 @@ const Skills = () => {
             skillsList.map((skill) => (
               <li key={skill.name}>
                 <div className="w-[92px] h-[92px] p-[10px] bg-white rounded-2xl shadow-md text-center border-gray-100 border-[1px] hover:shadow-2xl duration-500">
-                  <Image src={skill.src} alt="coding skill" width={48} height={48} className="mx-auto" priority />
+                  <Image src={skill.src} alt="coding skill" width={48} height={48} className="mx-auto" />
                   <p className={`whitespace-nowrap ${(skill.name.length > 10 ? "text-xs mt-1" : "text-sm")}`}>{skill.name}</p>
                 </div>
               </li>

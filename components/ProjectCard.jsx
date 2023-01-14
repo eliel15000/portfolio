@@ -7,7 +7,7 @@ const ProjectCard = ({ name, image, tech, desc, live, repo }) => {
       <div className="smd:flex bg-white rounded-2xl shadow-md hover:shadow-2xl duration-500 smd:p-5 border-gray-100 border-[1px]">
 
         <div className="flex-[0_0_400px]">
-          <Image src={image} alt={`${name} project`} width={500} height={278} className="rounded-2xl mx-auto border-[1px]" priority />
+          <Image src={image} alt={`${name} project`} width={500} height={278} className="rounded-2xl mx-auto border-[1px]" />
         </div>
 
         <div className="smd:ml-5 p-5 smd:p-0">
