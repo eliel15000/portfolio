@@ -18,7 +18,7 @@ const Navbar = () => {
   return (
 
     <div className="shadow-md w-full z-[99] fixed top-0 left-0">
-      <div className="md:flex justify-between bg-white py-4 md:px-10 px-7">
+      <div className="navbar-pad md:flex justify-between bg-white py-4 md:px-10 px-7">
         <div className="flex text-4xl items-center font-inconsolata ">
           <a href="#home" className="flex">
             <Image src={EcLogo} alt="EliezerCoding logo" className="w-10 h-10 hover:cursor-pointer" />
@@ -26,7 +26,7 @@ const Navbar = () => {
           </a>
         </div>
 
-        <div className="text-3xl absolute right-8 top-6 cursor-pointer md:hidden" onClick={() => setOpen(!open)}>
+        <div className="ham-menu text-3xl absolute right-8 top-6 cursor-pointer md:hidden" onClick={() => setOpen(!open)}>
           {open ? <IoClose /> : <IoMenu />}
         </div>
 

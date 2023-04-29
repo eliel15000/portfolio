@@ -98,3 +98,18 @@ a {
     height: 21rem;
   }
 }
+
+@media (max-width: 450px) {
+  .main {
+    padding: 0 0.675rem;
+  }
+  .navbar-pad {
+    padding: 1rem 0.5rem;
+  }
+  .ham-menu {
+    right: 1rem;
+  }
+  .profile-name {
+    font-size: 2.75rem;
+  }
+}
